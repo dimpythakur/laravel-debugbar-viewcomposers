@@ -14,6 +14,6 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
-        dd(123)
+        dd(123);
     }
 }
