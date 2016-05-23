@@ -12,10 +12,11 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.*|5.2.*",
+        "barryvdh/laravel-debugbar": "^2.2"
     },
     "autoload": {
         "psr-4": {
             "Joshbrw\\DebugbarViewComposers\\": "src/"
         }
-    },
+    }
 }
