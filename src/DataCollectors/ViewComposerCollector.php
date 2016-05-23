@@ -41,12 +41,8 @@ class ViewComposerCollector implements DataCollectorInterface, Renderable
      */
     public function addViewComposer(View $view, $viewComposer)
     {
-        if (!$description = $this->describeViewComposer($view, $viewComposer)) {
-            return false;
-        }
-
         $this->viewComposers->push([
-            'message' => $description
+            'message' => $this->describeViewComposer($view, $viewComposer)
         ]);
     }
 
