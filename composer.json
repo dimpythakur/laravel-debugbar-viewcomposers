@@ -1,0 +1,29 @@
+{
+    "name": "joshbrw/laravel-debugbar-viewcomposers",
+    "description": "View Composer Integration for Laravel DebugBar",
+    "keywords": ["laravel", "debugbar", "viewcomposers"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Brown",
+            "email": "josh@joshbrown.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Joshbrw\\DebugbarViewComposers\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
+        }
+    }
+}
