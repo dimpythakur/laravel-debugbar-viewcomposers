@@ -16,14 +16,6 @@
     "autoload": {
         "psr-4": {
             "Joshbrw\\DebugbarViewComposers\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2-dev"
         }
-    }
+    },
 }
