@@ -1,3 +1,5 @@
+![TravisCI Build Status](//api.travis-ci.org/joshbrw/laravel-debugbar-viewcomposers.svg)
+
 ## Laravel Debugbar - ViewComposer Collection
 
 This package allows you to see which [View Composers](https://laravel.com/docs/master/views#view-composers) are being triggered during page rendering. The aim of this package is to help you drill-down exactly where your View variables are coming from.
