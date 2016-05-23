@@ -1,4 +1,4 @@
-![TravisCI Build Status](//api.travis-ci.org/joshbrw/laravel-debugbar-viewcomposers.svg)
+[![Build Status](https://travis-ci.org/joshbrw/laravel-debugbar-viewcomposers.svg?branch=master)](https://travis-ci.org/joshbrw/laravel-debugbar-viewcomposers)
 
 ## Laravel Debugbar - ViewComposer Collection
 
